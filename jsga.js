@@ -26,6 +26,9 @@
      *   individual, return a number)
      *   @param options.size {Number} the number of individuals in the population.
      *   MUST BE AN EVEN NUMBER.
+     *   @param options.seed {Object[]} Seed used to fill the first individuals of
+     *   the initial population. The remaining individuals will be filled with
+     *   random chromosomes.
      *   @param options.children {Number} the number of children each pair should
      *   produce. Default is 4.
      *   @param options.mutationRate {Number} the mutation rate, in mutations/base
@@ -38,6 +41,7 @@
         let radix = options.radix || err("Expected radix parameter.");
         let fitness = options.fitness || err("Expected fitness parameter.");
         let size = options.size || err("Expected size parameter.");
+        let seed = options.seed || [];
         let children = options.children || 4;
         let mutationRate = options.mutationRate || 0.05;
         let crossovers = options.crossovers || 1;
@@ -54,8 +58,13 @@
          * @param generations {Number} the number of generations to run
          */
         self.run = function* (generations) {		
+            // use seed for initial population:
+            seed.forEach(function (individual) {
+                population.push(individual);
+            });
+
             // fill population with random chromosomes
-            for (let i = 0; i < size; i++) {
+            for (let i = seed.length; i < size; i++) {
                 population.push([...randInt(radix, length)]);
             }
             

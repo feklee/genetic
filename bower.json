@@ -1,5 +1,5 @@
 {
-  "name": "jsga",
+  "name": "jsga-feklee",
   "description": "A genetic algorithm implementation written in JavaScript.",
   "main": "jsga.js",
   "authors": [
@@ -11,7 +11,7 @@
     "algorithm",
     "evolutionary"
   ],
-  "homepage": "https://github.com/CoryMcCartan/genetic",
+  "homepage": "https://github.com/feklee/genetic",
   "moduleType": [
     "globals",
     "node"

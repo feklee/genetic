@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoryMcCartan/genetic.git"
+    "url": "git+https://github.com/feklee/genetic.git"
   },
   "keywords": [
     "genetic",
@@ -22,9 +22,9 @@
   "author": "Cory McCartan",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/CoryMcCartan/genetic/issues"
+    "url": "https://github.com/feklee/genetic/issues"
   },
-  "homepage": "https://github.com/CoryMcCartan/genetic#readme",
+  "homepage": "https://github.com/feklee/genetic#readme",
   "files": [
       "jsga.js"
   ]

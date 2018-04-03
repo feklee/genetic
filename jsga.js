@@ -26,9 +26,8 @@
      *   individual, return a number)
      *   @param options.size {Number} the number of individuals in the population.
      *   MUST BE AN EVEN NUMBER.
-     *   @param options.seed {Object[]} Seed used to fill the first individuals of
-     *   the initial population. The remaining individuals will be filled with
-     *   random chromosomes.
+     *   @param options.seed {Object[]} used to fill the first individuals of
+     *   the initial population. The remaining individuals are random.
      *   @param options.children {Number} the number of children each pair should
      *   produce. Default is 4.
      *   @param options.mutationRate {Number} the mutation rate, in mutations/base

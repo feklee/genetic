@@ -42,6 +42,8 @@ Notes on the parameters:
   a chromosome (array of numbers) and expects a number to be returned.  JSGA
   will try to maximize the fitness function.
 - `size` is the number of individuals in the population.  This must be an even number.
+- `seed` is used to fill the first individuals of the initial population. The
+  remaining individuals are random.
 - `children` is the number of offsping each pair of parents will produce.  The 
 default is 4.
 - `mutationRate` is the rate of random mutations, in mutations/number.  That

@@ -178,7 +178,7 @@
         return self;
     };
 
-    JSGA.VERSION = "1.0.0";
+    JSGA.VERSION = "1.1.0";
 
     // export the object for Node and the browser.
     if (typeof exports != 'undefined' && !exports.nodeType) {

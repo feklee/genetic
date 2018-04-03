@@ -20,6 +20,10 @@
     "evolutionary"
   ],
   "author": "Cory McCartan",
+  "contributors": [{
+      "name": "Felix E. Klee",
+      "email": "felix.klee@inka.de"
+  }],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/feklee/genetic/issues"

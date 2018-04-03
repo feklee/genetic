@@ -2,6 +2,7 @@
  * JavaScript Genetic Algorithm
  *
  * ©2016 Cory McCartan
+ * ©2018 Felix E. Klee (contributions)
  */
 
 (function() {

@@ -59,9 +59,7 @@
          */
         self.run = function* (generations) {		
             // use seed for initial population:
-            seed.forEach(function (individual) {
-                population.push(individual);
-            });
+            seed.forEach(individual => population.push(individual));
 
             // fill population with random chromosomes
             for (let i = seed.length; i < size; i++) {

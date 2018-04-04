@@ -5,7 +5,7 @@ JSGA is an ES6 genetic algorithm library.
 
 ## Installation
 
-- Bower: `bower install jsga`
+- Bower: `bower install jsga-feklee`
 
 Or you can download `jsga.js` above.
 

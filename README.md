@@ -7,7 +7,9 @@ JSGA is an ES6 genetic algorithm library.
 
 - Bower: `bower install jsga-feklee`
 
-Or you can download `jsga.js` above.
+- Yarn: `yarn add jsga-feklee`
+
+Or you can download `jsga.js` from the [GitHub repo][1].
 
 ## Usage
 
@@ -66,3 +68,5 @@ for (let generation of algorithm.run(50)) {
     console.log(`Best individual's fitness: ${generation.best.fitness}`);
 }
 ```
+
+[1]: https://github.com/feklee/genetic

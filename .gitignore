@@ -1,5 +1,6 @@
 .DS_Store
 *.tmp
 *.swp
-
+yarn-debug.log*
+yarn-error.log*
 node_modules
